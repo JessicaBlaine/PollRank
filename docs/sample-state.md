@@ -13,6 +13,7 @@
         "REG",
         "AMF",
       ],
+      results: [],
     },
     messages: ["edit your choices"],
   }
