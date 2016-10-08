@@ -5,6 +5,7 @@ column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
 question        | string    | not null
+string_id       | string    | not null, indexed, unique
 
 ## options
 column name     | data type | details
