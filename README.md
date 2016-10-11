@@ -23,7 +23,7 @@ PollRank is a web application inspired by StrawPoll built using Ruby on Rails an
 * [Sample State][sample-state]
 
 [wireframes]: docs/wireframes
-[components]: docs/component-heirarchy.md
+[components]: docs/component-hierarchy.md
 [redux-structure]: docs/redux-structure.md
 [sample-state]: docs/sample-state.md
 [api-endpoints]: docs/api-endpoints.md
@@ -31,7 +31,7 @@ PollRank is a web application inspired by StrawPoll built using Ruby on Rails an
 
 ## Implementation Timeline
 
-### Phase 1:
+### Phase 1: Poll Creation backend and splash page component.
 
 **Objective:**
 
