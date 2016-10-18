@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 
 const App = ({ children }) => (
   <div>
-    <header>
-    </header>
+    <header />
     {children}
   </div>
 );
+
+App.propTypes = {
+  children: PropTypes.element,
+};
 
 export default App;
