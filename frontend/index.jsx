@@ -8,6 +8,7 @@ const IndexRoute = ReactRouter.IndexRoute;
 const hashHistory = ReactRouter.hashHistory;
 
 
+
 const Root = require('./components/root');
 
 document.addEventListener('DOMContentLoaded', () => {
