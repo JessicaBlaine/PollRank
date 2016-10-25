@@ -1,3 +1,6 @@
+import Root from './components/root';
+import configureStore from './store/store';
+
 const React = require('react');
 const ReactDOM = require('react-dom');
 const ReactRouter = require('react-router');
@@ -7,11 +10,9 @@ const Route = ReactRouter.Route;
 const IndexRoute = ReactRouter.IndexRoute;
 const hashHistory = ReactRouter.hashHistory;
 
-
-
-const Root = require('./components/root');
-
 document.addEventListener('DOMContentLoaded', () => {
   const rootEl = document.getElementById('root');
-  ReactDOM.render(<div>test</div>, rootEl);
+  const store = configureStore();
+
+  ReactDOM.render(<Root store={store} />, rootEl);
 });
