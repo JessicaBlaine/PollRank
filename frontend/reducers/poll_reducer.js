@@ -1,12 +1,14 @@
 import merge from 'lodash/merge';
 
-import { CREATE_POLL } from '../actions/poll_actions';
+import { RECEIVE_POLL, RECEIVE_RESULTS } from '../actions/poll_actions';
 
 const pollReducer = (state = {}, action) => {
   Object.freeze(state);
   switch (action.type) {
-    case CREATE_POLL:
+    case RECEIVE_POLL:
       return action.poll;
+    case RECEIVE_RESULTS:
+      return merge({}, state, { results: action.results });
     default:
       return state;
   }
