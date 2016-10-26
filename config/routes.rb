@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   namespace :api, defaults: {format: :json} do
     resources :polls, only: :create do
       get 'results', to: 'results#show'
+      get '', to: 'results#show'
     end
   end
 
