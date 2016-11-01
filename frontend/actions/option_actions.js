@@ -6,6 +6,7 @@ export const createOption = option => ({
   option,
 });
 
+
 export const removeOption = option => ({
   type: REMOVE_OPTION,
   option,
