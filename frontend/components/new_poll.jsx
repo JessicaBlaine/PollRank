@@ -2,7 +2,6 @@ import React from 'react';
 
 import NewOptionsIndex from './new_options_index';
 
-
 class NewPoll extends React.Component {
   constructor(props) {
     super(props);
