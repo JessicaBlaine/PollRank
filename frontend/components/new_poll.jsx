@@ -19,7 +19,6 @@ class NewPoll extends React.Component {
     console.log(this.state);
   }
   
-
   render() {
     return (
       <form className="new-poll" onSubmit={this.handleSubmit}>
