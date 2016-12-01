@@ -18,7 +18,7 @@ class NewPoll extends React.Component {
     event.preventDefault();
     console.log(this.state);
   }
-  
+
   render() {
     return (
       <form className="new-poll" onSubmit={this.handleSubmit}>
@@ -32,5 +32,6 @@ class NewPoll extends React.Component {
     );
   }
 }
+
 
 export default NewPoll;
