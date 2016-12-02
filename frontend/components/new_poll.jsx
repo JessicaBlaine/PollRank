@@ -18,6 +18,7 @@ class NewPoll extends React.Component {
     event.preventDefault();
     console.log(this.state);
   }
+  
 
   render() {
     return (
