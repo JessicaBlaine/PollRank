@@ -33,5 +33,4 @@ class NewPoll extends React.Component {
   }
 }
 
-
 export default NewPoll;
