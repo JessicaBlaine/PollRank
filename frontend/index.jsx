@@ -7,6 +7,8 @@ import Root from './components/root';
 import configureStore from './store/store';
 
 
+
+
 document.addEventListener('DOMContentLoaded', () => {
   const rootEl = document.getElementById('root');
   const store = configureStore();
